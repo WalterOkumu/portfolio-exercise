@@ -1,7 +1,6 @@
-* {
+body {
    font-family: 'Roboto', sans-serif;
    font-style: normal;
-   background-color: #191765;
 }
 
 a {
@@ -11,6 +10,7 @@ a {
 .navbar-nav {
    font-weight: 500;
    color: white;
+   background-color: #191765;
 }
 
 .navbar-brand {
@@ -32,11 +32,24 @@ a {
 
 .about {
    color: white;
+   background-image: url("../assets/two circles header.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-color: #191765;
+}
+
+.about-title-header {
+   color: #9391FF;
+   font-weight: 700;
+}
+
+.about-body {
+   color: #B3BAC5;
 }
 
 hr {
-   margin: auto;
-   /* width: 50%; */
+   width: 50%;
+   color: #646369;
 }
 
 .fa-github,
